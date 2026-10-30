@@ -1,0 +1,33 @@
+# Terraform working directory
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform variable files containing local configuration or secrets
+*.tfvars
+*.tfvars.json
+!terraform.tfvars.example
+.terraform.lock.hcl   # Ignore Terraform lock file
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI configuration
+.terraformrc
+terraform.rc
+
+# Local plans and generated files
+*.tfplan
+tfplan
+terraform.log
+
+# Local emulator data
+data/
+floci-data/
