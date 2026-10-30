@@ -30,7 +30,7 @@ Instead of provisioning infrastructure in a real AWS account, Floci provides a l
 
 ## Architecture
 
-![Architecture](docs/architecture.png)
+<img width="1536" height="1024" alt="8d019b15-59fe-46d8-b680-cd41c0b77e7f" src="https://github.com/user-attachments/assets/15cc0977-83b1-4b5f-baae-0aa9ae004a57" />
 
 The architecture represents the intended local infrastructure workflow. Floci's real EKS mode uses a k3s-backed Kubernetes environment rather than an actual AWS-managed EKS control plane.
 
@@ -227,7 +227,6 @@ This project provides practical exposure to:
 - Internet Gateway and route table configuration.
 - AWS security groups and IAM concepts.
 - Terraform providers, resources, variables, and outputs.
-- Local AWS service emulation using Floci.
 - Kubernetes and EKS-compatible cluster concepts.
 
 ## References
@@ -237,6 +236,4 @@ This project provides practical exposure to:
 - [AWS VPC Resource](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/vpc)
 - [AWS Subnet Resource](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/subnet)
 - [AWS EKS Cluster Resource](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eks_cluster)
-- [Floci Documentation](https://floci.io/)
-- [Floci EKS Documentation](https://floci.io/floci/services/eks/)
 
